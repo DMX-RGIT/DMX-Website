@@ -1,6 +1,8 @@
 import { useState } from "react";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import { AboutUs } from "./pages/AboutUs";
@@ -17,8 +19,14 @@ import { Logo } from "./components/Logo";
 function App() {
   return (
     <>
+
+    <Hero/>
       {/* <Router>
      
+outer>
+        <Navbar />
+       
+
         <br />
         <Routes>
           <Route path="/aboutus" element={<AboutUs />} />

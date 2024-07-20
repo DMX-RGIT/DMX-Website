@@ -6,12 +6,19 @@ import "./App.css";
 import { AboutUs } from "./pages/AboutUs";
 import { Events } from "./pages/Events";
 import { Ourteam } from "./pages/Ourteam";
+import { Home } from "./pages/Home";
+import { Footer2 } from "./components/Footer2";
+import { TeamComponent } from "./components/TeamComponent";
+import { Event1 } from "./components/Event1";
+import { OurTeamComponent } from "./components/OurTeamComponent";
+import { ImageComponent } from "./components/ImageComponent";
+import { Logo } from "./components/Logo";
 
 function App() {
   return (
     <>
-      <Router>
-        <Navbar />
+      {/* <Router>
+     
         <br />
         <Routes>
           <Route path="/aboutus" element={<AboutUs />} />
@@ -19,7 +26,12 @@ function App() {
           <Route path="/ourteam" element={<Ourteam />} />
         </Routes>
         <Footer />
-      </Router>
+      </Router> */}
+
+      {/* <TeamComponent /> */}
+      {/* <OurTeamComponent /> */}
+      {/* <Event1 /> */}
+      {/* <ImageComponent /> */}
     </>
   );
 }
